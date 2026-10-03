@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "هدست Razer BlackShark V2 Pro",
+    "desc": "صداگذاری ۷.۱ کاناله بی‌سیم",
+    "price": 4500000,
+    "image": "/Images/razer-headset.jpg",
+    "tag": "ویژه RGB"
+  },
+  {
+    "id": 2,
+    "title": "کیس گیمینگ Lian Li O11 Dynamic",
+    "desc": "شیشه آکواریومی با ۳ فن RGB",
+    "price": 12800000,
+    "image": "/Images/lianli-case.png",
+    "tag": "NEW"
+  },
+  {
+    "id": 3,
+    "title": "ماوس Logitech G502 X Plus",
+    "desc": "سنسور HERO 25K نوری",
+    "price": 3200000,
+    "image": "/Images/logitech-mouse.png",
+    "tag": "۲۰% تخفیف"
+  },
+  {
+    "id": 4,
+    "title": "کیبورد مکانیکال Redragon K552",
+    "desc": "سویچ‌های قرمز خطی اختصاصی",
+    "price": 2600000,
+    "image": "/Images/keyboard.png",
+    "tag": "پرفروش"
+  },
+  {
+    "id": 5,
+    "title": "صندلی گیمینگ DXRacer Formula",
+    "desc": "ارگونومیک با روکش چرم",
+    "price": 15500000,
+    "image": "/Images/dxracer-chair.png",
+    "tag": "ارگونومیک"
+  },
+  {
+    "id": 6,
+    "title": "میکروفون استریم HyperX QuadCast S",
+    "desc": "پایه‌ضد لرزش با نورپردازی RGB",
+    "price": 8900000,
+    "image": "/Images/hyperx-mic.png",
+    "tag": "استریمینگ"
+  },
+  {
+    "id": 7,
+    "title": "پد ماوس RGB سایز بزرگ",
+    "desc": "نورپردازی RGB با ۱۴ حالت مختلف",
+    "price": 850000,
+    "image": "/Images/rgb-mousepad.jpg.jpg",
+    "tag": "ویژه"
+  }
+]

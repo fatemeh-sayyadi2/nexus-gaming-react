@@ -1,10 +1,11 @@
 interface NavbarProps{
     cartCount: number;
+    cartTotal: number;
 }
 
-function Navbar({cartCount}: NavbarProps) {
+function Navbar({cartCount, cartTotal}: NavbarProps) {
     return (
-        <div>🛒 سبد خرید: {cartCount}</div>
+        <div>🛒 سبد خرید: {cartCount} - مجموع: {cartTotal.toLocaleString()}</div>  
     );
 }
 

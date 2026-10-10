@@ -44,7 +44,8 @@ function App() {
   localStorage.setItem("shopping_cart", JSON.stringify(cart))
 },[cart])
 
-  const cartCount = cart.reduce((total,item) => total + item.quantity, 0);
+  const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
+  const cartTotal = cart.reduce((total, item) => total + item.product.price * item.quantity, 0);
   function handleAddToCart(product: Product) {
     const existingItem = cart.find((item) => item.product.id === product.id);
     if (existingItem) {
@@ -59,7 +60,7 @@ function App() {
 
   return (
     <div>
-      <Navbar cartCount={cartCount} />
+      <Navbar cartCount={cartCount} cartTotal={cartTotal} />
       {isLoading ? <p>در حال بارگذاری محصولات...</p> : null}
       {error ? <p>{error}</p> : null}
           <h2>تعداد محصولات: {products.length}</h2>

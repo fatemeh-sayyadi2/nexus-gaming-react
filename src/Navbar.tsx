@@ -5,7 +5,7 @@ interface NavbarProps{
 
 function Navbar({cartCount, cartTotal}: NavbarProps) {
     return (
-        <div>🛒 سبد خرید: {cartCount} - مجموع: {cartTotal.toLocaleString()}</div>  
+        <div className="navbar">🛒 سبد خرید: {cartCount} - مجموع: {cartTotal.toLocaleString()}</div>
     );
 }
 
